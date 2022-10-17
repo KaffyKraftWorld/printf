@@ -1,4 +1,5 @@
 #ifndef MAINH
 #define MAINH
 #include <stdarg.h>
-char *itob(va_list list);
+void print_binary(unsigned int n, unsigned int *printed);
+
